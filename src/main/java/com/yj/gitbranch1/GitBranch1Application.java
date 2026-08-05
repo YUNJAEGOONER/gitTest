@@ -10,6 +10,10 @@ public class GitBranch1Application {
         SpringApplication.run(GitBranch1Application.class, args);
     }
 
+    public static String feat2(){
+        return "feat2";
+    }
+
     public static void feat1(){
         System.out.println("feat1");
     }
