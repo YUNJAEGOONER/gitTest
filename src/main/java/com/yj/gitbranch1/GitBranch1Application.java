@@ -18,4 +18,10 @@ public class GitBranch1Application {
         System.out.println("feat1");
     }
 
+    public static void Arsenal(){
+        StringBuilder sb = new StringBuilder();
+        sb.append("Arsenal");
+        System.out.print(sb);
+    }
+
 }
