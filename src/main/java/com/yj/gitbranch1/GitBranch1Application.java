@@ -14,4 +14,8 @@ public class GitBranch1Application {
         return "feat2";
     }
 
+    public static void feat1(){
+        System.out.println("feat1");
+    }
+
 }
