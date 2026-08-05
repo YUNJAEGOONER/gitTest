@@ -10,4 +10,8 @@ public class GitBranch1Application {
         SpringApplication.run(GitBranch1Application.class, args);
     }
 
+    public static String feat2(){
+        return "feat2";
+    }
+
 }
