@@ -24,4 +24,11 @@ public class GitBranch1Application {
         System.out.print(sb);
     }
 
+    public static String FCSeoul(){
+        String name = "FC Seoul";
+        int year = 1983;
+        String str = String.format("%s %d", name, year);
+        return str;
+    }
+
 }
